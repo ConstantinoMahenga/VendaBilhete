@@ -6,9 +6,11 @@ import Cart from './components/Cart';
 import HomePage from './pages/HomePage';
 import AddEvent from './components/addEvent';
 
+//Navbar estilizada com ícones e logo esta integrada ao App.js
+
 // --- Importações ---
 import { FiHome, FiShoppingCart } from 'react-icons/fi'; // Usando Feather Icons
-import logo from './context/logo.png'; // Certifique-se que o caminho está correto
+import logo from './assets/ne.png';
 
 // Componente opcional para o contador
 function CartIconWithCount() {
